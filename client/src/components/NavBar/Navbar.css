@@ -1,0 +1,119 @@
+.burger_logo {
+  display: flex;
+  /* flex-grow: ; */
+  height: 3rem;
+  margin: auto;
+}
+
+.logo_Navbar p {
+  margin: auto;
+  color: var(--fontClr);
+  font-weight: bold;
+}
+
+.logo_Navbar {
+  display: flex;
+  text-decoration: none;
+}
+
+.container_Navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  background-color: var(--bgClr);
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: space-evenly;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  margin-left: 0.5rem;
+  margin-right: 0.7rem;
+  border-radius: 100%;
+}
+
+.burger:active {
+  border: 1px solid rgba(255, 255, 255, 0.781);
+}
+
+.burger p {
+  margin: 0.5px;
+  width: 1.2rem;
+  height: 0.1rem;
+  background-color: rgba(255, 255, 255, 0.781);
+}
+
+.Auth_Conatiner_navbar {
+  display: flex; /* Aligns child elements in a row */
+  margin: auto 0.5rem;
+  align-items: center; /* Vertically centers the children */
+  gap: 1rem; /* Optional: Adds space between the children */
+}
+
+.Auth_Btn {
+  display: flex; /* Aligns icon and text in a row */
+  align-items: center; /* Centers the content vertically */
+  cursor: pointer;
+  padding: 0.5rem;
+  color: #ccd3d9;
+  background-color: rgb(36, 36, 36);
+  border-radius: 0.5rem;
+  border: 2px solid;
+  gap: 0.5rem; /* Adds space between the icon and text */
+}
+
+.Auth_Btn:hover {
+  color: rgb(131, 112, 38);
+}
+
+.mic_Navbar {
+  border-radius: 100%;
+  padding: 0.5rem;
+  background-color: var(--textBoxClr);
+}
+.mic_Navbar,
+.vid_bell_Navbar {
+  color: whitesmoke;
+  cursor: pointer;
+  margin: auto 0.7rem;
+}
+.box_apps {
+  /* border: 1px solid white; */
+  width: 25px;
+  margin: auto 0.7rem;
+
+  height: 25px;
+  grid-row: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box_app {
+  border: 1px solid white;
+  margin: 0.1rem;
+  width: 2px;
+  height: 2px;
+}
+.X_SEacrbar_mobile {
+  color: white;
+  margin: auto 1rem;
+  font-size: x-large;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.Mobile {
+  display: none;
+}
+
+@media (max-width: 815px) {
+  .Auth_Btn b,
+  .logo_Navbar p {
+    display: none;
+  }
+}
