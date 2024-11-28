@@ -13,7 +13,7 @@ Clone the repository:
 
 
 ## Backend:
-cd backend
+cd backend<br>
 npm install
 npm start
 ## Frontend:
