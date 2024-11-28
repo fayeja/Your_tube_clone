@@ -2,21 +2,21 @@
 A basic YouTube clone with features like history, liked videos, watch later, and video upload.
 
 ## Technologies Used
-Frontend: ReactJS
-Backend: NodeJS
-Database: MongoDB
-Deployment
-Frontend: Netlify Link
-Backend: Hosted on Vercel
-Installation
-Clone the repository:
+Frontend: ReactJS <br>
+Backend: NodeJS <br>
+Database: MongoDB <br>
+Deployment <br>
+Frontend: Netlify Link <br>
+Backend: Hosted on Vercel <br>
+Installation <br>
 
+## Clone the repository:
 
 ## Backend:
 cd backend<br>
-npm install
-npm start
+npm install <br>
+npm start <br>
 ## Frontend:
-cd frontend
-npm install
-npm start
+cd frontend <br>
+npm install <br>
+npm start <br>
